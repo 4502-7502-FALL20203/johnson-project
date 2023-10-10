@@ -46,7 +46,7 @@ main {
 
 p {
 	font-family: 'Old Standard TT', serif;
-	font-weight: 900;
+	font-weight: bold;
 	justify-content: center;
 	align-items: center;
 }
