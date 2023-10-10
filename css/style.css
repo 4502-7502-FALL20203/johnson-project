@@ -10,7 +10,7 @@ nav {
 	font-family: Old Standard TT, serif;
 	font-weight: 600;
 	font-size: 1.5em;
-	background-color: black;
+	background-color: skyblue;
 }
 
 nav ul {
@@ -22,7 +22,7 @@ nav ul {
 
 
 nav ul li {
-	background-color: black;
+	background-color: skyblue;
 	flex-flow: row-wrap;
 	list-style-type: none;
 	padding: 1rem;
@@ -45,7 +45,7 @@ main {
 
 
 p {
-	font-family: 'Old Standard TT', cursive;
+	font-family: 'Old Standard TT', serif;
 	font-weight: 400;
 	justify-content: center;
 	align-items: center;
@@ -70,8 +70,8 @@ footer {
 }
 
 h1 {
-	font-family: Heebo, sans-serif;
-	font-weight: 800;
+	font-family: Playfair Display, sans-serif;
+	font-weight: 900;
 	font-size: 3rem;
 	text-transform: capitalize;
 	margin: 1rem;
@@ -97,7 +97,7 @@ h1 {
 .list-item {
 	display: flex;
 	border-radius: 3px;
-	color: whitesmoke;
+	color: darkgreen;
 }
 
 .list-item h2 {
