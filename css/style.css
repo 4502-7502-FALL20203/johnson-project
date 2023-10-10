@@ -72,8 +72,8 @@ footer {
 h1 {
 	font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
 	font-weight: 900;
-	font-size: 40px;
-	text-transform: capitalize;
+	font-size: 60px;
+	text-transform: none;
 	margin: 1rem;
 }
 
