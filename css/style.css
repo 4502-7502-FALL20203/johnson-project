@@ -54,11 +54,11 @@ p {
 
 p a {
 	color: rgb(127, 128, 0);
-	text-decoration: italics;
+	text-decoration: italic;
 }
 
 ul li a {
-	text-decoration: italics;
+	text-decoration: italic;
 	color: rgb(127, 128, 0);
 }
 
