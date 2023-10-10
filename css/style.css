@@ -52,8 +52,8 @@ p {
 }
 
 p a {
-	color: rgb(127, 128, 0);
-	text-decoration: underline;
+    color: rgb(127, 128, 0);
+    text-decoration: none; /* Remove underline */
 }
 
 ul li a {
