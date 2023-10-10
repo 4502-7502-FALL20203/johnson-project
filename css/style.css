@@ -1,143 +1,132 @@
+/* Set the background color for the body */
 body {
-	background-color: peachpuff;
-
+    background-color: peachpuff;
 }
 
-
+/* Styles for the navigation bar */
 nav {
-	max-width: 800px
-	margin: auto;
-	font-family: Old Standard TT, serif;
-	font-weight: 600;
-	font-size: 1.5em;
-	background-color: skyblue;
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Old Standard TT', serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    background-color: skyblue;
 }
 
 nav ul {
-	display: flex;
-	align-items: center;
-	flex-direction: row;
-	justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
 }
-
 
 nav ul li {
-	background-color: skyblue;
-	flex-flow: row-wrap;
-	list-style-type: none;
-	padding: 1rem;
-	max-width: 100%;
-
-}
-
-
-nav ul li a {
-	text-decoration: none;
-	color: white;
-}
-
-
-main {
-	max-width: 800px;
-	margin: auto;
-	font-size: 1rem;
-}
-
-
-p {
-	font-family: 'Old Standard TT', serif;
-	font-weight: bold;
-	justify-content: center;
-	align-items: center;
-}
-
-ul li a {
-	text-decoration: underline dotted white;
-	color: rgb(255, 255, 255);
-}
-
-
-1rem
-
-
-footer {
-
-}
-
-h1 {
-	font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
-	font-weight: 900;
-	font-size: 60px;
-	text-transform: none;
-	margin: 1rem;
-}
-
-
-.mailing-link {
-	display: flex;
-	flex-direction: column;
-}
-
-.list-item .director-label {
-	display: flex;
-	font-weight: 200;
-	margin-left: 1rem;
-	padding: 0.25rem;
-}
--@media screen and (max-width: 479px) {
-
-	main {
-		width: 100%;
-	}
-
-	img {
-		align-items: center;
-	}
-
-	h1 {
-		font-weight: 600;
-	}
-
-	p {
-		font-size: 3rem;
-	}
-	nav {
-		max-width: 100%px;
-		font-size: 2rem;
-	}
-
-	nav ul {
-		display: flex;
-		align-items: stretch;
-		flex-direction: column;
-		justify content: space-between;
-		margin: auto;
-		padding: auto;
-	}
-
-nav ul li {
-    background-color: skyblue;
-    flex-flow: row-wrap;
     list-style-type: none;
-    list-style-position: inside; /* Center the bullet points */
     padding: 1rem;
     max-width: 100%;
 }
 
-	nav ul li a {
-		text-decoration: none;
-		text-transform: uppercase;
-	}
-
-
-@media screen and (min-width:480px) {
-	body {
-		background-color: whitesmoke;
-	}
+nav ul li a {
+    text-decoration: none;
+    color: white;
 }
 
-@media screen and (min-width:720px){
-	body {
-		background-color: rgb(226, 223, 214);
-	}
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: auto;
+    font-size: 1rem;
+}
+
+/* Email link style with no underline */
+p a {
+    color: #008000; /* Green color */
+    text-decoration: none;
+}
+
+/* Footer styles (if any) */
+footer {
+    /* Add footer styles here */
+}
+
+/* Heading 1 styles */
+h1 {
+    font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
+    font-weight: 900;
+    font-size: 60px;
+    text-transform: none;
+    margin: 1rem;
+}
+
+/* Styles for mailing links or lists */
+.mailing-link {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Additional styles for specific elements (if needed) */
+.list-item .director-label {
+    display: flex;
+    font-weight: 200;
+    margin-left: 1rem;
+    padding: 0.25rem;
+}
+
+/* Responsive styles for smaller screens (max-width: 479px) */
+@media screen and (max-width: 479px) {
+    main {
+        width: 100%;
+    }
+
+    img {
+        align-items: center;
+    }
+
+    h1 {
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 3rem;
+    }
+
+    nav {
+        max-width: 100%;
+        font-size: 2rem;
+    }
+
+    nav ul {
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: auto;
+        padding: auto;
+    }
+
+    nav ul li {
+        list-style-type: none;
+        list-style-position: inside; /* Center the bullet points */
+        padding: 1rem;
+        max-width: 100%;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
+
+/* Responsive styles for screens with a minimum width of 480px */
+@media screen and (min-width: 480px) {
+    body {
+        background-color: whitesmoke;
+    }
+}
+
+/* Responsive styles for screens with a minimum width of 720px */
+@media screen and (min-width: 720px) {
+    body {
+        background-color: rgb(226, 223, 214);
+    }
 }
