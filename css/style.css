@@ -23,7 +23,7 @@ nav ul {
 
 
 nav ul li {
-	background-color: black;
+	background-color: seagreen;
 	flex-flow: row-wrap;
 	list-style-type: none;
 	padding: 1rem;
@@ -54,11 +54,11 @@ p {
 
 p a {
 	color: rgb(127, 128, 0);
-	text-decoration: underline;
+	text-decoration: italics;
 }
 
 ul li a {
-	text-decoration: underline;
+	text-decoration: italics;
 	color: rgb(127, 128, 0);
 }
 
