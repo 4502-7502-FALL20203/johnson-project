@@ -57,7 +57,7 @@ p a {
 }
 
 ul li a {
-	text-decoration: underline dotted blue;
+	text-decoration: underline dotted white;
 	color: rgb(255, 255, 255);
 }
 
@@ -128,7 +128,7 @@ h1 {
 
 .list-link a{
 	color: rgb(255, 199, 82);
-	text-decoration: underline solid rgb(255, 199, 82) 1px;
+	text-decoration: none rgb(255, 199, 82) 1px;
 }
 
 .list-image img {
