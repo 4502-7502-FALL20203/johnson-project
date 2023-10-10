@@ -57,7 +57,7 @@ p a {
 }
 
 ul li a {
-	text-decoration: underline;
+	text-decoration: underline dotted blue;
 	color: rgb(255, 255, 255);
 }
 
