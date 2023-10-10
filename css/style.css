@@ -128,7 +128,7 @@ h1 {
 
 .list-link a{
 	color: rgb(255, 199, 82);
-	text-decoration: none rgb(255, 199, 82) 1px;
+	text-decoration: underline; rgb(255, 255, 255) 1px;
 }
 
 .list-image img {
