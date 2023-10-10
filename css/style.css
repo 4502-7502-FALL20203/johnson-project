@@ -1,1 +1,200 @@
 
+body {
+	background-color: rgb(226, 223, 214);
+
+}
+
+
+nav {
+	max-width: 800px
+	margin: auto;
+	font-family: Old Standard TT, serif;
+	font-weight: 600;
+	font-size: 1.5em;
+	background-color: black;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+nav ul li {
+	background-color: black;
+	flex-flow: row-wrap;
+	list-style-type: none;
+	padding: 1rem;
+	max-width: 100%;
+
+}
+
+
+nav ul li a {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+
+main {
+	max-width: 800px;
+	margin: auto;
+	font-size: 1rem;
+}
+
+
+p {
+	font-family: 'Old Standard TT', serif;
+	font-weight: 400;
+	justify-content: center;
+	align-items: center;
+}
+
+p a {
+	color: rgb(127, 128, 0);
+	text-decoration: underline;
+}
+
+ul li a {
+	text-decoration: underline;
+	color: rgb(127, 128, 0);
+}
+
+
+1rem
+
+
+footer {
+
+}
+
+h1 {
+	font-family: Heebo, sans-serif;
+	font-weight: 800;
+	font-size: 3rem;
+	text-transform: capitalize;
+	margin: 1rem;
+}
+
+
+.mailing-link {
+	display: flex;
+	flex-direction: column;
+}
+
+.punchline {
+	font-style: italic;
+}
+
+
+.listings {
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.list-item {
+	display: flex;
+	border-radius: 3px;
+	color: whitesmoke;
+}
+
+.list-item h2 {
+	display: flex;
+	font-family: Heebo, sans-serif;
+	font-style: italic;
+}
+
+.director-label {
+
+}
+
+.list-item .director-label {
+	display: flex;
+	font-weight: 200;
+	margin-left: 1rem;
+	padding: 0.25rem;
+}
+
+.list-item .desc-label {
+	display: flex;
+	font-weight: 400;
+	color: whitesmoke;
+	margin-left: 1rem;
+	padding: 0.25rem;
+	margin-top: -1rem;
+}
+
+.list-link a{
+	color: rgb(255, 199, 82);
+	text-decoration: underline solid rgb(255, 199, 82) 1px;
+}
+
+.list-image img {
+	max-width: 200px;
+	margin:1rem;
+	box-shadow: rgb(226, 223, 214);
+	border-radius: 3px;
+}
+
+@media screen and (max-width: 479px) {
+
+	body {
+		background-color: whitesmoke;
+	}
+
+	main {
+		width: 100%;
+	}
+
+	img {
+		align-items: center;
+	}
+
+	h1 {
+		font-weight: 600;
+	}
+
+	p {
+		font-size 1rem;
+	}
+
+	nav {
+		max-width: 100%px;
+		font-size: 1rem;
+	}
+
+	nav ul {
+		display: flex;
+		align-items: stretch;
+		flex-direction: column;
+		justify content: space-between;
+		margin: auto;
+		padding: auto;
+	}
+
+	nav ul li {
+		flex-flow: row wrap;
+		list-style-type: none;
+		text-align: center;
+	}
+
+	nav ul li a {
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+
+
+@media screen and (min-width:480px) {
+	body {
+		background-color: whitesmoke;
+	}
+}
+
+@media screen and (min-width:720px){
+	body {
+		background-color: rgb(226, 223, 214);
+	}
+}
