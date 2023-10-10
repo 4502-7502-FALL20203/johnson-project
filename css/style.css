@@ -83,33 +83,6 @@ h1 {
 	flex-direction: column;
 }
 
-.punchline {
-	font-style: italic;
-}
-
-
-.listings {
-	background-color: black;
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.list-item {
-	display: flex;
-	border-radius: 3px;
-	color: darkgreen;
-}
-
-.list-item h2 {
-	display: flex;
-	font-family: Heebo, sans-serif;
-	font-style: italic;
-}
-
-.director-label {
-
-}
-
 .list-item .director-label {
 	display: flex;
 	font-weight: 200;
@@ -120,17 +93,10 @@ h1 {
 .list-item .desc-label {
 	display: flex;
 	font-weight: 700;
-	color: white;
+	color: blue;
 	margin-left: 1rem;
 	padding: 0.25rem;
 	margin-top: -1rem;
-}
-
-.list-image img {
-	max-width: 200px;
-	margin:1rem;
-	box-shadow: rgb(255, 255, 255);
-	border-radius: 3px;
 }
 
 @media screen and (max-width: 479px) {
