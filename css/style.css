@@ -89,7 +89,23 @@ h1 {
 	margin-left: 1rem;
 	padding: 0.25rem;
 }
+-@media screen and (max-width: 479px) {
 
+	main {
+		width: 100%;
+	}
+
+	img {
+		align-items: center;
+	}
+
+	h1 {
+		font-weight: 600;
+	}
+
+	p {
+		font-size: 3rem;
+	}
 	nav {
 		max-width: 100%px;
 		font-size: 2rem;
