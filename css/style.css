@@ -1,4 +1,3 @@
-
 body {
 	background-color: rgb(226, 223, 214);
 
@@ -11,7 +10,7 @@ nav {
 	font-family: Old Standard TT, serif;
 	font-weight: 600;
 	font-size: 1.5em;
-	background-color: lightyellow;
+	background-color: black;
 }
 
 nav ul {
@@ -23,7 +22,7 @@ nav ul {
 
 
 nav ul li {
-	background-color: lightyellow;
+	background-color: black;
 	flex-flow: row-wrap;
 	list-style-type: none;
 	padding: 1rem;
@@ -34,7 +33,7 @@ nav ul li {
 
 nav ul li a {
 	text-decoration: none;
-	color: black;
+	color: whitesmoke;
 }
 
 
@@ -53,12 +52,12 @@ p {
 }
 
 p a {
-	color: rgb(252, 228, 236);
-	text-decoration: italic;
+	color: rgb(127, 128, 0);
+	text-decoration: underline;
 }
 
 ul li a {
-	text-decoration: italic;
+	text-decoration: underline;
 	color: rgb(127, 128, 0);
 }
 
