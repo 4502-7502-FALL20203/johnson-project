@@ -11,7 +11,7 @@ nav {
 	font-family: Old Standard TT, serif;
 	font-weight: 600;
 	font-size: 1.5em;
-	background-color: seagreen;
+	background-color: lightyellow;
 }
 
 nav ul {
@@ -23,7 +23,7 @@ nav ul {
 
 
 nav ul li {
-	background-color: seagreen;
+	background-color: lightyellow;
 	flex-flow: row-wrap;
 	list-style-type: none;
 	padding: 1rem;
@@ -34,7 +34,7 @@ nav ul li {
 
 nav ul li a {
 	text-decoration: none;
-	color: whitesmoke;
+	color: blueviolet;
 }
 
 
