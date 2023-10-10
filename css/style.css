@@ -90,19 +90,10 @@ h1 {
 	padding: 0.25rem;
 }
 
-.list-item .desc-label {
-	display: flex;
-	font-weight: 700;
-	color: blue;
-	margin-left: 1rem;
-	padding: 0.25rem;
-	margin-top: -1rem;
-}
-
 @media screen and (max-width: 479px) {
 
 	body {
-		background-color: whitesmoke;
+		background-color: black;
 	}
 
 	main {
