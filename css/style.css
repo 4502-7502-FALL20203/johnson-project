@@ -8,8 +8,16 @@ nav {
     background-color: skyblue;
 }
 
-.image-holder img {
-    border: 3px solid rebeccapurple; /* You can also use the hex color code: #663399 */
+  .image-holder img {
+      border: 4px solid mediumpurple; /* Change 'blue' to the color you prefer */
+    }
+
+      footer {
+    background-color: #663399; /* Hexadecimal code for rebeccapurple */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
 }
 
 footer {
