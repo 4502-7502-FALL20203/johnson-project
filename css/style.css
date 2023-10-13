@@ -3,6 +3,8 @@ body {
     background-color: lightblue;
 }
 /* Styles for the navigation bar */
+
+  @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
 nav {
     max-width: 1000px;
     margin: auto;
