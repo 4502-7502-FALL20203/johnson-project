@@ -1,4 +1,3 @@
-
 /* Set the background color for the body */
 body {
     background-color: blueviolet;
@@ -19,20 +18,16 @@ nav ul {
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    max-width: 100%;
 }
 
 nav ul li {
     list-style-type: none;
-    align-items:center;
     padding: 1rem;
-    max-width: 100%;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
-   
 }
 
 /* Main content styles */
@@ -42,137 +37,19 @@ main {
     font-size: 1rem;
 }
 
-/* Email link style with no underline */
-/* p a {
-    color: green;
-    text-decoration: none;
-   
-} */
-
-a {
-  color: green;
-}
-
-/* Footer styles (if any) */
-footer {
-    /* Add footer styles here */
-}
-
 /* Heading 1 styles */
 h1 {
-    font-family: 'Arial', sans-serif; /* Change this to your desired font family */
+    font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
     font-weight: 900;
     font-size: 60px;
     text-transform: none;
     margin: 1rem;
 }
 
-/* Styles for mailing links or lists */
-.mailing-link {
-    display: flex;
-    flex-direction: column;
-}
-
-.listings
-{
-  text-align: center;
- 
-}
-
-.centered-list {
-    list-style-position: inside;
-    text-align: center;
-    display: inline-block;
-    padding-left: 0;
-   
-   
-   
-}
-
-.centered-list li {
-    text-align: center;
-   
-}
-
-/* Additional styles for specific elements (if needed) */
-.list-item .director-label {
-    display: flex;
-    font-weight: 400;
-    margin-left: 1rem;
-    padding: 0.25rem;
-}
-
-/* Responsive styles for smaller screens (max-width: 479px) */
-@media screen and (max-width: 479px) {
-    main {
-        width: 100%;
-    }
-
-    img {
-        align-items: center;
-    }
-
-    h1 {
-        font-weight: 600;
-    }
-
-
-    p {
-        font-size: 3rem;
-    }
-
-    nav {
-        max-width: 100%;
-        font-size: 2rem;
-        text-align: center;
-    }
-
-    nav ul {
-        display: flex;
-        align-items: stretch;
-        flex-direction: column;
-        justify-content: space-between;
-        margin: auto;
-        padding: 50;
-       
-    }
-
-    nav ul li {
-        list-style-type: none;
-        list-style-position: inside; /* Center the bullet points */
-        padding: 1rem;
-        max-width: 100%;
-       
-    }
-
-    nav ul li a {
-        text-decoration: none;
-        text-transform: uppercase;
-        text-align: center;    
-    }
- 
-    div.listings{
-      text-align: left;
-   
-    }
- 
-    ul.centered-list{
-     
-      display: inline-block;
-      text-align: left;
-   
-  }
- 
-    ul {
-    list-style-position: inside;
-    text-align: ;
-  }
-}
-
 /* Responsive styles for screens with a minimum width of 480px */
 @media screen and (min-width: 480px) {
     body {
-        background-color: lightskyblue;
+        background-color: whitesmoke;
     }
 }
 
