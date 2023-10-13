@@ -42,6 +42,15 @@ h1 {
     text-align: center; /* Center the text */
 }
 
+
+/* Heading 2 styles */
+h2 {
+    font-family: 'Comic Sans MS', cursive;
+    font-weight: 600;
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+
 /* Responsive styles for screens with a minimum width of 480px */
 @media screen and (min-width: 480px) {
     body {
