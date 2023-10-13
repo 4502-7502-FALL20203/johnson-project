@@ -172,7 +172,7 @@ h1 {
 /* Responsive styles for screens with a minimum width of 480px */
 @media screen and (min-width: 480px) {
     body {
-        background-color: whitesmoke;
+        background-color: lightskyblue;
     }
 }
 
