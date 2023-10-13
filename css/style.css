@@ -66,8 +66,8 @@ h2 {
     }
 }
 footer {
-    background-color: rebeccapurple; 
-    color: white; 
+    background-color: #663399; /* Hexadecimal code for rebeccapurple */
+    color: white;
     text-align: center;
     padding: 10px;
     font-size: 14px;
