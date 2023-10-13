@@ -50,9 +50,7 @@ h2 {
     font-size: 24px; /* Adjust the font size as needed */
 }
 
- .image-holder img {
-      border: 4px solid mediumpurple; /* Change 'blue' to the color you prefer */
-    }
+
 
 /* Responsive styles for screens with a minimum width of 480px */
 @media screen and (min-width: 480px) {
@@ -66,4 +64,11 @@ h2 {
     body {
         background-color: rgb(173, 216, 230);
     }
+}
+footer {
+    background-color: #333; /* Choose your preferred background color */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
 }
