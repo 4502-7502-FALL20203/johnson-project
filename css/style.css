@@ -1,13 +1,8 @@
-/* Set the background color for the body */
-body {
-    background-color: lightblue;
-}
 /* Styles for the navigation bar */
-
 nav {
     max-width: 1000px;
     margin: auto;
-      font-family: 'Comic Sans MS', cursive;
+    font-family: 'Comic Sans MS', cursive;
     font-weight: 600;
     font-size: 1.5em;
     background-color: skyblue;
@@ -56,6 +51,7 @@ h1 {
 
 /* Responsive styles for screens with a minimum width of 720px */
 @media screen and (min-width: 720px) {
-  body {
-    background-color: rgb(173, 216, 230);
+    body {
+        background-color: rgb(173, 216, 230);
+    }
 }
