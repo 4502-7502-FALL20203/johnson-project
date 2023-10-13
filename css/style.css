@@ -1,8 +1,7 @@
 /* Set the background color for the body */
 body {
-    background-color: darkblue;
+    background-color: lightblue;
 }
-
 /* Styles for the navigation bar */
 nav {
     max-width: 1000px;
