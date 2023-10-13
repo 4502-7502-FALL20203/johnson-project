@@ -43,6 +43,7 @@ h1 {
     font-size: 60px;
     text-transform: none;
     margin: 1rem;
+    text-align: center; /* Center the text */
 }
 
 /* Responsive styles for screens with a minimum width of 480px */
