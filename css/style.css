@@ -42,15 +42,12 @@ main {
 
 
 
-h1 {
-    font-family: 'Comic Sans MS', cursive;
-    font-weight: 900;
-    font-size: 60px;
-    text-transform: none;
-    margin: 1rem;
-    text-align: center; /* Center the text */
-    color: white; /* Set the text color to white */
-    background-color: #663399; /* Set the background color to rebeccapurple */
+header {
+    background-color: #663399; /* Hexadecimal code for rebeccapurple */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
 }
 /* Heading 2 styles */
 h2 {
