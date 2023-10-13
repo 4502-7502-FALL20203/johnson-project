@@ -60,7 +60,7 @@ footer {
 
 /* Heading 1 styles */
 h1 {
-    font-family: 'Brush Script MT', 'Lucida Handwriting', cursive;
+    font-family: 'Arial', sans-serif; /* Change this to your desired font family */
     font-weight: 900;
     font-size: 60px;
     text-transform: none;
