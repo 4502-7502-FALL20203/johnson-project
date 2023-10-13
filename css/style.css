@@ -42,13 +42,16 @@ main {
 
 
 
-header {
-    background-color: #663399; /* Hexadecimal code for rebeccapurple */
-    color: white;
+h1 {
+    font-family: 'Comic Sans MS', cursive;
+    font-weight: 900;
+    font-size: 60px;
+    text-transform: none;
+    margin: 1rem;
     text-align: center;
-    padding: 10px;
-    font-size: 14px;
+    color: rebeccapurple; /* Or use the hex color code: #663399 */
 }
+
 /* Heading 2 styles */
 h2 {
     font-family: 'Comic Sans MS', cursive;
