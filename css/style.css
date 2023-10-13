@@ -8,6 +8,13 @@ nav {
     background-color: skyblue;
 }
 
+footer {
+    background-color: #663399; /* Hexadecimal code for rebeccapurple */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
 nav ul {
     display: flex;
     align-items: center;
@@ -65,10 +72,4 @@ h2 {
         background-color: rgb(173, 216, 230);
     }
 }
-footer {
-    background-color: #663399; /* Hexadecimal code for rebeccapurple */
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size: 14px;
-}
+
