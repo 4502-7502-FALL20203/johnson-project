@@ -8,6 +8,10 @@ nav {
     background-color: skyblue;
 }
 
+.image-holder img {
+    border: 3px solid rebeccapurple; /* You can also use the hex color code: #663399 */
+}
+
 footer {
     background-color: #663399; /* Hexadecimal code for rebeccapurple */
     color: white;
