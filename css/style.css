@@ -8,16 +8,6 @@ nav {
     background-color: skyblue;
 }
 
-h1 {
-    font-family: 'Comic Sans MS', cursive;
-    font-weight: 900;
-    font-size: 60px;
-    text-transform: none;
-    margin: 1rem;
-    text-align: center;
-    color: rebeccapurple; /* Or use the hex color code: #663399 */
-}
-
 footer {
     background-color: #663399; /* Hexadecimal code for rebeccapurple */
     color: white;
@@ -25,6 +15,7 @@ footer {
     padding: 10px;
     font-size: 14px;
 }
+
 nav ul {
     display: flex;
     align-items: center;
@@ -57,8 +48,9 @@ h1 {
     text-transform: none;
     margin: 1rem;
     text-align: center; /* Center the text */
+    color: white; /* Set the text color to white */
+    background-color: #663399; /* Set the background color to rebeccapurple */
 }
-
 
 /* Heading 2 styles */
 h2 {
@@ -66,8 +58,6 @@ h2 {
     font-weight: 600;
     font-size: 24px; /* Adjust the font size as needed */
 }
-
-
 
 /* Responsive styles for screens with a minimum width of 480px */
 @media screen and (min-width: 480px) {
@@ -82,4 +72,3 @@ h2 {
         background-color: rgb(173, 216, 230);
     }
 }
-
