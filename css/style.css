@@ -54,7 +54,6 @@ h1 {
 
 /* Responsive styles for screens with a minimum width of 720px */
 @media screen and (min-width: 720px) {
-    body {
-        background-color: rgb(226, 223, 214);
-    }
+  body {
+    background-color: rgb(173, 216, 230);
 }
