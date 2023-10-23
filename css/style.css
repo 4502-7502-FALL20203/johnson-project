@@ -68,6 +68,19 @@ h2 {
     }
 }
 
+
+
+.restaurant-name {
+    font-weight: bold;
+    color: #002C56; /* Change the color to your preference */
+}
+
+.restaurant-address {
+    font-style: italic;
+}
+
+
+
 /* Responsive styles for screens with a minimum width of 720px */
 @media screen and (min-width: 720px) {
     body {
