@@ -5,7 +5,7 @@ nav {
     font-family: 'Comic Sans MS', cursive;
     font-weight: 600;
     font-size: 1.5em;
-    background-color: #000080;
+    background-color: #008080;
 }
 
 
@@ -50,7 +50,7 @@ h1 {
     text-transform: none;
     margin: 1rem;
     text-align: center;
-    color: saddlebrown; /* Or use the hex color code: #663399 */
+    color: white; /* Or use the hex color code: #663399 */
 }
 
 /* Heading 2 styles */
