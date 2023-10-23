@@ -41,7 +41,23 @@ main {
     font-size: 1rem;
 }
 
+/* CSS for .text-holder class in the location list page */
+.location-list .text-holder {
+    width: 100%; /* Spans 100% of its parent */
+    background-color: #ECECEC; /* Change to the desired background color */
+    padding: 10px; /* Add padding as needed */
+    margin: 0; /* Remove any default margin */
+    border: 1px solid #CCCCCC; /* Add a border if desired */
+    /* Add other text-holder styling properties */
+}
 
+/* CSS for .location-holder class with the same properties as .media-holder */
+.location-holder, .media-holder {
+    background-color: #F5F5F5; /* Example background color */
+    padding: 20px; /* Example padding */
+    border: 1px solid #DDDDDD; /* Example border */
+    /* Add other shared styling properties for location-holder and media-holder */
+}
 
 h1 {
     font-family: 'Comic Sans MS', cursive;
