@@ -45,7 +45,7 @@ main {
 .location-list .text-holder {
     width: 100%; /* Spans 100% of its parent */
     background-color: #ECECEC; /* Change to the desired background color */
-    padding: 10px; /* Add padding as needed */
+    padding: 8px; /* Add padding as needed */
     margin: 0; /* Remove any default margin */
     border: 1px solid #CCCCCC; /* Add a border if desired */
     /* Add other text-holder styling properties */
