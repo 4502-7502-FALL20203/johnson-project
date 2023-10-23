@@ -17,10 +17,7 @@ footer {
     color: white;
 }
 
-#content p1 {
-    color: #005C5C; /* Change to the desired text color */
-    font-size: 18px; /* Change to the desired font size */
-}
+
 
 nav ul {
     display: flex;
