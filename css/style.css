@@ -63,16 +63,10 @@ h1 {
     font-size: 60px;
     margin: 1rem;
     text-align: center;
-    color: #002C56;
+    color: #D50032;
 }
 
-h2 {
-    font-family: 'Comic Sans MS', cursive;
-    font-weight: 600;
-    font-size: 24px;
-    color: #D50032;
-     text-align: center;
-}
+
 
 .gallery-image img {
     width: 300px; /* Set your desired width here */
