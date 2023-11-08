@@ -60,7 +60,14 @@ main {
 p{ text-align: center;
     font-weight: 900;
  margin: 1rem;
- color: #D50032;
+ color: #002C56;
+}
+
+figcaption{text-align: center;
+    font-weight: 900;
+ margin: 1rem;
+ color: #002C56;
+
 }
 
 h1 {
