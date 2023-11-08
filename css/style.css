@@ -31,6 +31,26 @@ nav ul li a {
     color: white;
 }
 
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .button_holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gallery-image {
+    display: none;
+    max-width: 100%;
+    text-align: center;
+  }
+</style>
+
 main {
     max-width: 800px;
     margin: auto;
