@@ -108,5 +108,39 @@
   <p>Lianna Johnson 2023 &copy; </p>
 </footer>
 
+<script>
+      const buttonPrevious = document.getElementById('button_previous');
+      const buttonNext = document.getElementById('button_next');
+      const galleryImages = document.querySelectorAll('.gallery-image');
+      let currentImageIndex = 0;
+
+      function showCurrentImage() {
+        galleryImages.forEach((image, index) => {
+          if (index === currentImageIndex) {
+            image.classList.remove('hideThis');
+          } else {
+            image.classList.add('hideThis');
+          }
+        });
+
+        document.getElementById('stepper').textContent = currentImageIndex + 1 + '/' + galleryImages.length;
+      }
+
+      buttonPrevious.addEventListener('click', () => {
+        currentImageIndex = (currentImageIndex - 1 + galleryImages.length) % galleryImages.length;
+        showCurrentImage();
+      });
+
+      buttonNext.addEventListener('click', () => {
+        currentImageIndex = (currentImageIndex + 1) % galleryImages.length;
+        showCurrentImage();
+      });
+
+      showCurrentImage();
+    </script>
+  </body>
+</html>
+
+
 <script src="js/toggle.js"></script>
 </html>
