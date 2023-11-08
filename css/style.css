@@ -88,7 +88,9 @@ h2 {
 
 
 }
-
+.gallery-image img {
+    width: 300px; /* Set your desired width here */
+    height: auto;
 
 
 /* Responsive styles for screens with a minimum width of 720px */
