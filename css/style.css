@@ -7,10 +7,11 @@ nav {
     background-color: #005C5C;
 }
 
+
 .skip-link {
     position: absolute;
-    top: -40px;
-    left: 0;
+    top: -999em;
+    left: -999em;
     background-color: #007bff;
     color: #fff;
     padding: 10px;
@@ -21,6 +22,8 @@ nav {
 }
 
 .skip-link:focus {
+    top: auto;
+    left: auto;
     opacity: 1;
 }
 
