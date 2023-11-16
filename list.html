@@ -6,8 +6,9 @@
     <title>Top 10 Best Songs to Get You into K-Pop</title> 
     <link rel="stylesheet" href="css/style.css">
 
-
-  <a class="skip-link" href="#content">Skip to content</a>
+</head>
+<body>
+ <a href="#content" class="skip-link">Skip to main content</a>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -39,6 +40,18 @@
       font-family:  'Comic Sans MS', cursive;
       font-weight: 600;
       font-size: 24px; /* Adjust the font size as needed */
+    }
+        }
+    .skip-link {
+      position: absolute;
+      top: -999em;
+      left: -999em;
+    }
+
+    /* Show the skip link when focused */
+    .skip-link:focus {
+      top: auto;
+      left: auto;
     }
  
     </style>
