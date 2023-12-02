@@ -90,32 +90,6 @@ figcaption{text-align: center;
 
 }
 
-<style>
-    main {
-        max-width: 800px;
-        margin: auto;
-        font-size: 1rem;
-        text-align: center; /* Center the text within the main content */
-    }
-
-    .media-holder {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 20px; /* Add some spacing between media-holders */
-    }
-
-    .image-holder {
-        text-align: center; /* Center the image within the image-holder */
-        display: inline-block; /* Ensure each image-holder is on the same line */
-    }
-
-    h2 {
-        font-family: 'Comic Sans MS', cursive;
-        font-weight: 600;
-        font-size: 24px; /* Adjust the font size as needed */
-    }
-</style>
 
 
 h1 {
