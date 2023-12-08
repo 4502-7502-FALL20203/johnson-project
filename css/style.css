@@ -90,7 +90,9 @@ figcaption{text-align: center;
 
 }
 
-
+.location-holder {
+    text-align: center;
+}
 
 h1 {
     font-family: 'Comic Sans MS', cursive;
