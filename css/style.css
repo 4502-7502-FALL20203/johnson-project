@@ -90,9 +90,6 @@ figcaption{text-align: center;
 
 }
 
-.location-holder {
-    text-align: center;
-}
 
 h1 {
     font-family: 'Comic Sans MS', cursive;
@@ -101,6 +98,9 @@ h1 {
     margin: 1rem;
     text-align: center;
     color: #D50032;
+}
+.location-holder {
+    text-align: center;
 }
 
 .gallery-image {
